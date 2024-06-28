@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.main-container{
+    background-image: url('../src/assets/bg.png');
+    width: 100vw;
+    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

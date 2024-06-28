@@ -156,12 +156,12 @@ export default function Navbar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" style={{backgroundColor:'white'}}>
         <Toolbar>
           <IconButton
             size="large"
             edge="start"
-            color="inherit"
+            color="black"
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
@@ -171,11 +171,12 @@ export default function Navbar() {
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: 'none', sm: 'block' } }}
+            sx={{ display: { xs: 'none', sm: 'block' ,color:'black'} }}
+
           >
-            MUI
+            Foodzy
           </Typography>
-          <Search>
+          <Search style={{color:'black', border:'1px solid black'}}>
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
