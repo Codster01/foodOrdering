@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Margherita Pizza",
+        "price": 8.99,
+        "description": "Classic pizza with fresh tomatoes, mozzarella, and basil.",
+        "category": "Pizza",
+        "vegetarian": true
+    },
+    {
+        "name": "Veggie Pizza",
+        "price": 9.99,
+        "description": "Pizza loaded with bell peppers, onions, mushrooms, and olives.",
+        "category": "Pizza",
+        "vegetarian": true
+    },
+    {
+        "name": "Mushroom Risotto",
+        "price": 12.99,
+        "description": "Creamy risotto with sautéed mushrooms and Parmesan cheese.",
+        "category": "Main Course",
+        "vegetarian": true
+    },
+    {
+        "name": "Penne Arrabbiata",
+        "price": 10.99,
+        "description": "Penne pasta in a spicy tomato sauce with garlic and chili flakes.",
+        "category": "Pasta",
+        "vegetarian": true
+    },
+    {
+        "name": "Caprese Salad",
+        "price": 7.99,
+        "description": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
+        "category": "Salad",
+        "vegetarian": true
+    },
+    {
+        "name": "Vegetable Stir Fry",
+        "price": 11.99,
+        "description": "Mixed vegetables stir-fried with soy sauce and sesame oil.",
+        "category": "Main Course",
+        "vegetarian": true
+    },
+    {
+        "name": "Falafel Wrap",
+        "price": 8.49,
+        "description": "Crispy falafel wrapped with fresh veggies and tahini sauce.",
+        "category": "Wrap",
+        "vegetarian": true
+    },
+    {
+        "name": "Eggplant Parmesan",
+        "price": 13.99,
+        "description": "Breaded eggplant slices baked with marinara sauce and mozzarella.",
+        "category": "Main Course",
+        "vegetarian": true
+    },
+    {
+        "name": "Stuffed Bell Peppers",
+        "price": 12.49,
+        "description": "Bell peppers stuffed with a savory mix of rice and vegetables.",
+        "category": "Main Course",
+        "vegetarian": true
+    },
+    {
+        "name": "Vegetable Samosas",
+        "price": 5.99,
+        "description": "Crispy pastry filled with spiced potatoes and peas.",
+        "category": "Appetizer",
+        "vegetarian": true
+    },
+    {
+        "name": "Greek Salad",
+        "price": 8.99,
+        "description": "Cucumber, tomatoes, olives, and feta cheese with a light vinaigrette.",
+        "category": "Salad",
+        "vegetarian": true
+    },
+    {
+        "name": "Vegetable Lasagna",
+        "price": 14.99,
+        "description": "Layers of pasta, vegetables, and cheese baked in marinara sauce.",
+        "category": "Main Course",
+        "vegetarian": true
+    },
+    {
+        "name": "Spinach and Ricotta Ravioli",
+        "price": 13.49,
+        "description": "Ravioli stuffed with spinach and ricotta in a creamy Alfredo sauce.",
+        "category": "Pasta",
+        "vegetarian": true
+    },
+    {
+        "name": "Tomato Basil Soup",
+        "price": 6.99,
+        "description": "Smooth and rich tomato soup garnished with fresh basil.",
+        "category": "Soup",
+        "vegetarian": true
+    },
+    {
+        "name": "Garlic Bread",
+        "price": 4.99,
+        "description": "Toasted bread topped with garlic butter and herbs.",
+        "category": "Appetizer",
+        "vegetarian": true
+    },
+    {
+        "name": "Veggie Burger",
+        "price": 9.49,
+        "description": "Grilled veggie patty with lettuce, tomato, and onion on a brioche bun.",
+        "category": "Main Course",
+        "vegetarian": true
+    },
+    {
+        "name": "Quinoa Salad",
+        "price": 10.49,
+        "description": "Quinoa mixed with fresh vegetables and a lemon vinaigrette.",
+        "category": "Salad",
+        "vegetarian": true
+    },
+    {
+        "name": "Roasted Vegetable Sandwich",
+        "price": 8.99,
+        "description": "Sandwich with roasted vegetables, hummus, and sprouts.",
+        "category": "Sandwich",
+        "vegetarian": true
+    },
+    {
+        "name": "Bruschetta",
+        "price": 7.49,
+        "description": "Toasted bread topped with diced tomatoes, basil, and olive oil.",
+        "category": "Appetizer",
+        "vegetarian": true
+    },
+    {
+        "name": "Vegetable Spring Rolls",
+        "price": 6.49,
+        "description": "Crispy rolls filled with mixed vegetables served with dipping sauce.",
+        "category": "Appetizer",
+        "vegetarian": true
+    }
+]

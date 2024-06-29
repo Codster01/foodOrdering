@@ -15,7 +15,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
-
+import '../../css/navbar.css'
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -176,15 +176,7 @@ export default function Navbar() {
           >
             Foodzy
           </Typography>
-          <Search style={{color:'black', border:'1px solid black'}}>
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase
-              placeholder="Search…"
-              inputProps={{ 'aria-label': 'search' }}
-            />
-          </Search>
+          
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton size="large" aria-label="show 4 new mails" color="inherit">
@@ -208,7 +200,7 @@ export default function Navbar() {
               aria-controls={menuId}
               aria-haspopup="true"
               onClick={handleProfileMenuOpen}
-              color="inherit"
+              color="black"
             >
               <AccountCircle />
             </IconButton>
@@ -225,7 +217,12 @@ export default function Navbar() {
               <MoreIcon />
             </IconButton>
           </Box>
+          <div className='btns'>
+          <button type='submit' className='btn1'>Sign in</button>
+          <button type='submit' className='btn2' >Sign Up</button>
+          </div>
         </Toolbar>
+
       </AppBar>
       {renderMobileMenu}
       {renderMenu}
